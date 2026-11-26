@@ -1,2 +1,4 @@
-if __name__ == '__main__':
-    print("Prueba")
+from frontend.ventana_principal import VentanaPrincipal
+
+if __name__ == "__main__":
+    VentanaPrincipal().mainloop()
